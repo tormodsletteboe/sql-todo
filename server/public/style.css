@@ -1,0 +1,48 @@
+body {
+  background: peachpuff;
+}
+
+h4 {
+  margin: 35px 0 10px 0;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+ul {
+  padding: 0;
+  margin-top: 35px;
+}
+li {
+  list-style: none;
+  clear: both;
+  margin-bottom: 14px;
+}
+
+li.complete {
+  text-decoration: line-through;
+  color: #9a9a9a;
+}
+
+li button.btn {
+  display: none;
+  float: right;
+  font-size: 14px;
+  padding: 4px 8px;
+  margin-top: -1px;
+}
+
+li.complete button {
+  display: inline-block;
+}
+
+input[type=text] {
+  display: inline-block;
+  width: 270px;
+}
+#newTaskBtn {
+  float: right;
+}
