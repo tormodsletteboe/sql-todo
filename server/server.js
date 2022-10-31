@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
-const pool = require('./pool');
+const pool = require('./modules/pool');
 const app = express();
 
 // Serve static files from server/public folder
